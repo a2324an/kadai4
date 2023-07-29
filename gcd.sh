@@ -28,7 +28,7 @@ is_natural_number() {
     fi
 
     if [[ $1 = "0" ]]; then
-        echo "Error: $1 is a zero."
+        echo "Error: num is a zero."
         exit 1
     fi
 

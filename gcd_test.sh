@@ -33,8 +33,8 @@ test_gcd 101 103 1 # 互いに素の数
 # 異常系テスト
 test_error 24 -24 "Error: -24 is not a natural number." # 負の数
 test_error -1 53 "Error: -1 is not a natural number." # 負の数
-test_error 75 0 "Error: 0 is a zero." # ゼロ
-test_error 0 0 "Error: 0 is a zero." # ゼロ
+test_error 75 0 "Error: num is a zero." # ゼロ
+test_error 0 0 "Error: num is a zero." # ゼロ
 test_error 106 "" "Usage: ./gcd.sh num1 num2" # 引数不足
 test_error "" "" "Usage: ./gcd.sh num1 num2" # 引数不足
 test_error "" 123 "Usage: ./gcd.sh num1 num2" # 引数不足
